@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoppy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<!--font icon-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <nav class="Nav">
+        <h1>Shoppy</h1>
+        <div class="Navurls">
+        <p class="Navurl"><a href="index.html">Home </a></p>
+        <p  class="Navurl"><a href="collection.html"> Collections </a> </p>
+        <p class="Navurl"><a  href="contact.html"> ContactUs</a></p>
+        </div>
+        <div class="Toggle" onclick="togclick()"><i class="fa-solid fa-bars"></i></div>
+       
+    </nav>
+    <div class="sidebar">
+        <p class="Xmark" style="text-align: right;" onclick="togclose()"><i class="fa-solid fa-xmark"></i></p>
+        <div class="sidebarlink">
+        <p class="sidenavurl"><a href="index.html">Home </a></p>
+        <p class="sidenavurl"><a href="collection.html"> Collections </a> </p>
+        <p class="sidenavurl"><a  href="contact.html"> ContactUs</a></p>
+        </div>
+
+    </div>
+    <!--Products in collection-->
+    <div class="forming">
+    <form class="collectionS">
+        <input placeholder="Search" type="text" id="productC">
+        <i class="fa-solid fa-magnifying-glass"></i>
+    </form>
+      <div class="collection">
+       
+        <div  class="pics">
+            <img  class="img" src="https://source.unsplash.com/random/300x300?fashion?whiteshirt?1" alt="image"  >
+            <p>White Shirt</p>
+        </div>
+        <div class="pics" >
+            <img  class="img" src="https://source.unsplash.com/random/300x300?fashion?blackshirt?1" alt="image"  >
+            <p>Black Shirt</p>
+        </div>
+        
+        <div class="pics">
+            <img  class="img" src="https://source.unsplash.com/random/300x300?fashion?brownpant?1" alt="image"  >
+            <p>Brown Pant</p>
+        </div>
+        <div  class="pics">
+            <img  class="img" src="https://source.unsplash.com/random/300x300?fasion?blackshirt?2" alt="image"  >
+            <p>Black Shirt</p>
+        </div>
+        <div class="pics">
+            <img  class="img" src="https://source.unsplash.com/random/300x300?fashion?whiteshirt?2" alt="image"  >
+            <p>White Shirt</p>
+        </div>
+        <div class="pics">
+            <img  class="img" src="https://source.unsplash.com/random/300x300?fashion?brownpant?2" alt="image"  >
+            <p>Brown Pant</p>
+        </div>
+      </div>
+    </div> 
+    <div class="footer">
+        <div class="footercontainer">
+            <div class="para">
+                <h2>Shoppy</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, molestias accusamus.</p>
+                <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+            </div>
+            <p>@2024 Shoppy.com</p>
+        </div>
+    </div>
+    <script src="collection.js"></script>
+</body>
+</html>
